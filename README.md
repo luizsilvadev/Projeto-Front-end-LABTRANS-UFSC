@@ -9,7 +9,7 @@ Este documento tem como objetivo demonstrar todos os requisitos funcionais e des
 
 ### Objetivo do Software
 
-APIs Mensagens tem como objetivo disponibilizar a primeira parte das APis como teste simples como bônus.
+APIs Mensagens tem como objetivo disponibilizar a primeira parte das APIs como teste simples como bônus.
 
 APIs Reservas tem como objetivo disponibilizar a funcionalidade principal do desafio que é realizar reservas de salas para a empresa Banana Ltda.
 
@@ -55,6 +55,7 @@ Devendo conter os seguintes recursos obrigatórios:
 * Botão de edição de registro na listagem.
 * Botão de exclusão de registro na listagem.
 * Confirmar exclusão via modal de confirmação.
+* Café se verdadeiro (informar a quantidade de pessoas)
 
 ## Modelo de APIs (EndPoints utilizadas no projeto)
 
