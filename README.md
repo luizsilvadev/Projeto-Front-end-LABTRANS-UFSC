@@ -5,7 +5,7 @@
 
 ### Objetivo do Documento
 
-Este documento tem como objetivo demonstrar todos os requisitos funcionais e design dos objetos de API e assim como campos de tela e funcionalidades.
+Este documento tem como objetivo demonstrar todos os requisitos funcionais e design dos objetos de API e também os campos de tela e funcionalidades.
 
 ### Objetivo do Software
 
@@ -22,7 +22,7 @@ Este projeto será comtemplado com APis básicas de cadastro e listagens.
 
 ### Detalhes do Software – Regras APis Notificações
 
-Esta API será comtemplada com 1 regras de validação.
+Esta API será comtemplada com 1 regra de validação.
 *	Validação de título não pode ser vazio.
 
 ### Detalhes do Software – Regras APis Reservas
@@ -48,14 +48,13 @@ Este projeto front-end conta com uma arquitetura baseada em manipulação de eve
 
 ### Detalhes técnicos do design da tela
 
-As telas do sistema foram produzidas com a utilização do Bootstrap com responsividade e desig simples e atraente.
-Devendo conter os seguintes recursos obrigatórios:
+As telas do sistema foram produzidas com a utilização do Bootstrap com responsividade e design simples e atraente, devendo conter os seguintes recursos obrigatórios:
 * Botão para cadastrar nova reserva.
 * Listagem de reservas (Todos os campos exceto café e quantidade de pessoas).
 * Botão de edição de registro na listagem.
 * Botão de exclusão de registro na listagem.
 * Confirmar exclusão via modal de confirmação.
-* Café se verdadeiro (informar a quantidade de pessoas)
+* Café, se verdadeiro: informar a quantidade de pessoas.
 
 ## Modelo de APIs (EndPoints utilizadas no projeto)
 
@@ -118,9 +117,9 @@ Devendo conter os seguintes recursos obrigatórios:
 
 Para a execução do projeto front-end é necessário um servidor de hospedgem local ou de sua preferência.
 * Primeiro subir os arquivos para o seu servidor de hospedagem.
-* Depois defina a variável "server" na primeira linha do código dentro do arquivo index.js com as definição do seu servidor de APIs Back-end rodando ex.: (var server = "https://localhost:7197";).
-* Por fim, abra o arquivo index.html no seu navegador através da sua hospedagem local ou de sua preferencia ex.: (https://localhost/index.html).
-* Para utilização da API é necessário cadastrar um usúário em primeiro lugar através do botão "Cadastrar >" na página inicial e logo após efetuar login com o mesmo.
+* Depois defina a variável "server" na primeira linha do código dentro do arquivo index.js com as definições do seu servidor de APIs Back-end rodando ex.: (var server = "https://localhost:7197";).
+* Por fim, abra o arquivo index.html no seu navegador através da sua hospedagem local ou de sua preferencia. Ex.: (https://localhost/index.html)
+* Para utilização da API é necessário cadastrar inicialmente um usuário através do botão "Cadastrar >" na página inicial e, logo após, efetuar login com o mesmo.
 
 ### Envolvidos 
 
